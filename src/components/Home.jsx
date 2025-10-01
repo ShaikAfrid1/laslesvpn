@@ -1,8 +1,8 @@
-import Illustration from "../assets/illustration1.svg";
-import User from "../assets/user.png";
-import Location from "../assets/location.png";
-import Server from "../assets/server.png";
-import Illustration2 from "../assets/illustration2.png";
+import illustration from "../assets/illustration1.svg";
+import user from "../assets/user.png";
+import location from "../assets/location.png";
+import server from "../assets/server.png";
+import illustration2 from "../assets/illustration2.png";
 const Home = () => {
   return (
     <div className="bg-[#F9F9FA] px-16">
@@ -22,14 +22,14 @@ const Home = () => {
           </button>
         </div>
         <div className="w-[50%]">
-          <img src={Illustration} alt="" />
+          <img src={illustration} alt="" />
         </div>
       </div>
       <div className="hero2 mt-24 flex items-center  justify-center ">
         <div className="bg-white flex flex-row px-50 py-10 shadow-2xl">
           <div className="flex justify-center bg-white px-14 py-8 gap-10  items-center">
             <div className="bg-[#FFECEC] rounded-full w-16 h-16 flex items-center justify-center">
-              <img src={User} className="w-8 h-8" alt="" />
+              <img src={user} className="w-8 h-8" alt="" />
             </div>
             <div>
               <h1 className="font-bold text-2xl">90+</h1>
@@ -38,7 +38,7 @@ const Home = () => {
           </div>
           <div className="flex justify-center gap-10 bg-white px-32 py-8 border-l-2 border-r-2 border-gray-200 items-center">
             <div className="bg-[#FFECEC] rounded-full w-16 h-16 flex items-center justify-center">
-              <img src={Location} className="w-8 h-8" alt="" />
+              <img src={location} className="w-8 h-8" alt="" />
             </div>
             <div>
               <h1 className="font-bold text-2xl">30+</h1>
@@ -47,7 +47,7 @@ const Home = () => {
           </div>
           <div className="flex justify-center bg-white gap-10 px-14  py-8   items-center">
             <div className="bg-[#FFECEC] rounded-full w-16 h-16 flex items-center justify-center">
-              <img src={Server} className="w-8 h-8" alt="" />
+              <img src={server} className="w-8 h-8" alt="" />
             </div>
             <div>
               <h1 className="font-bold text-2xl">50+</h1>
@@ -58,7 +58,7 @@ const Home = () => {
       </div>
       <div className="hero3 flex items-center justify-center gap-12">
         <div>
-          <img src={Illustration2} alt="" />
+          <img src={illustration2} alt="" />
         </div>
         <div>
           <h1>We Provide Many Features You Can Use</h1>
