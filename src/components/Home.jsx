@@ -26,7 +26,7 @@ const Home = () => {
         </div>
       </div>
       <div className="hero2 mt-24 flex items-center  justify-center ">
-        <div className="bg-white flex flex-row px-60 py-10 shadow-2xl">
+        <div className="bg-white flex flex-row px-50 py-10 shadow-2xl">
           <div className="flex justify-center bg-white px-14 py-8 gap-10  items-center">
             <div className="bg-[#FFECEC] rounded-full w-16 h-16 flex items-center justify-center">
               <img src={User} className="w-8 h-8" alt="" />
