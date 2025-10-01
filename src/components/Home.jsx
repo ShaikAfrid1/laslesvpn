@@ -1,8 +1,9 @@
-import illustration from "../assets/illustration1.svg";
+import illustration from "../assets/illustration-1.svg";
+import illustration2 from "../assets/illustration-2.png";
 import user from "../assets/user.png";
 import location from "../assets/location.png";
 import server from "../assets/server.png";
-import illustration2 from "../assets/illustration2.png";
+
 const Home = () => {
   return (
     <div className="bg-[#F9F9FA] px-16">
